@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dating Website Assesment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        fieldset {
+            border-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="index.html">
+        <fieldset id="YourFace">
+            <legend>Your Face</legend>
+            <label id="YourImage" for="face">Your Image:</label>
+            <input type="file" name="face"><br>
+            <label id="imagePreview" for="faceimage">Image Preview:</label>
+            <src img="image.jpg" type="" name="faceimage">
+        </fieldset>
+        <fieldset id="YourDetails">
+            <legend>Your General Details</legend>
+            <label for="YourName">Name:</label>
+            <input type="text" name="YourName" value=""><br>
+
+            <label for="Gender">Gender:</label>
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female<br>
+
+            <label for="Age">Age:</label>
+            <input type="number" name="Age" value="18"><br>
+
+            <label for="DOB">Date of birth:</label>
+            <input type="date" name="DOB"><br>
+
+            <label for="FavColor">Favorite color:</label>
+            <input type="color" name="FavColor" value="blue"><br>
+
+            <label for="country">Which country:</label>
+            <input type="" name="country" value=""><br>
+
+        </fieldset>
+        <fieldset id="YourIndicators">
+            <legend>Your Indicators</legend>
+            <label for="YourHeight">Height:</label>
+            <input type="range" name="YourHeight" min="36" max="110" step="1"><br>
+
+            <label for="Salary">Salary:</label>
+            <input type="range" name="Salary" min="10000" max="100000" step="5000"><br>
+        </fieldset>
+        <fieldset id="ContactInfo">
+            <legend>Your Contact Information</legend>
+            <label for="emailadd">Email:</label>
+            <input type="email" name="emailadd" value=""><br>
+
+            <label for="mobilep">Mobile:</label>
+            <input type="phone" name="mobilep" value=""><br>
+
+            <label for="yAddress">Address:</label>
+            <input type="textarea rows=" 4 " cols="60 " name="yAddress " value=" "></textarea><br>
+
+            <input type="submit " name="submit ">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
